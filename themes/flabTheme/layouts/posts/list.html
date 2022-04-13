@@ -1,0 +1,29 @@
+{{ define "main" }}  
+<div class="container">  
+    <div class="section">  
+        <div class="content">  
+            {{ .Content }}  
+            {{ range .Pages }}  
+            <div class="mb-6 w-full flex flex-col items-start">
+                <!-- post header -->
+                <div class="mb-4">
+                  <h1 class="font-semibold text-2xl"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>  
+                  <div class="italic text-sm font-light">  
+                    <p><time>{{ .PublishDate.Format "January 2, 2006" }}</time></p>  
+                  </div>  
+                </div>
+                <div class="content font-[Vollkorn] leading-loose text-md">  
+                {{ if (isset .Params "extended") }}
+                  {{ .Summary }}  
+                  <a class="underline font-semibold" href="{{ .Permalink }}">Read more...</a>
+                {{ else }}
+                  {{ .Content }}
+                {{ end }}
+                </div>  
+                <hr class="w-1/2 self-center m-2">
+            </div>
+            {{ end }}  
+        </div>  
+    </div>  
+</div>  
+{{ end }} 
