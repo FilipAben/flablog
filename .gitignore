@@ -1,1 +1,5 @@
-./themes/flabTheme/node_modules/*
+themes/flabTheme/node_modules/**/*
+node_modules/**/*
+*.lock
+*.tmp
+public/**/*
