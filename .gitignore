@@ -1,4 +1,5 @@
 themes/flabTheme/node_modules/**/*
+themes/flabTheme/static/**/*
 node_modules/**/*
 *.lock
 *.tmp
