@@ -1,0 +1,15 @@
+{{ define "main" }}  
+<h1 class="font-bold text-2xl">About</h1>
+<div class="flex flex-row">
+  <section class="section">  
+    <article>  
+      <div class="flex flex-col justify-start leading-normal">  
+            <article class="content font-[Vollkorn] leading-loose">  
+              {{ .Content }}  
+            </article>  
+      </div>  
+    </article>  
+  </section>  
+  <div class="pl-10 mt-4 w-full h-[100px]"><img class="rounded-md drop-shadow-lg w-[100px]" src="/me.png"/></div>
+</div>
+{{ end }}  

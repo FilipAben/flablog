@@ -11,6 +11,14 @@
         position: relative;
         min-height: 100%;
     }
+    
+    article a {
+        @apply underline;
+    }
+    
+    p {
+        @apply my-4;
+    }
 }
 
 .menu-item {
