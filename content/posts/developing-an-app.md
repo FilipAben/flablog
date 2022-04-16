@@ -12,7 +12,7 @@ The first choice anyone is faced with is: what technology stack am I going to us
 
 <!--more-->
 The choice for a native platform wasn't any easy one and even after the decision was made I lost some sleep over it.
-My requirement weren't extensive:
+My requirements weren't extensive:
 
 * Easy to maintain
 * Future-proof
@@ -28,7 +28,7 @@ So I dug in a bit further and indeed there were a couple of aspects which gnawed
 * But the overall sentiment that I got out of articles & reddit, is that once the honeymoon period is over it will be a beast to maintain.
 
 On the upside, React Native would give me:
-* A headstart during development: note though that I like to learn and I'm not pressed for time at all
+* A head-start during development: note though that I like to learn and I'm not pressed for time at all
 * Hot reloading, fast development
 * Cross platform support: I'm developing an iOS-only app for reasons which will be obvious when it's out there :)
 
