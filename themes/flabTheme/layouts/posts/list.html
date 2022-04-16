@@ -10,7 +10,7 @@
               <p><time>{{ .PublishDate.Format "January 2, 2006" }}</time></p>  
             </div>  
           </div>
-          <article class="content font-[Vollkorn] leading-loose text-md">  
+          <article class="leading-loose">  
           {{ if (isset .Params "extended") }}
             {{ .Summary }}  
             <a class="underline font-semibold" href="{{ .Permalink }}">Read more...</a>

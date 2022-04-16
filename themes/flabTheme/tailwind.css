@@ -19,6 +19,20 @@
     p {
         @apply my-4;
     }
+    ul {
+        @apply list-disc;
+        @apply ml-6;
+    }
+    ol {
+        @apply list-decimal;
+        @apply ml-6;
+    }
+    article {
+        @apply font-[Vollkorn];
+        @apply leading-loose;
+        @apply text-lg;
+    }
+
 }
 
 .menu-item {
