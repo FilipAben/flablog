@@ -1,6 +1,5 @@
 node_modules/**/*
 *.lock
 *.tmp
-public/**/*
 **/.DS_Store
 static/css/style.css
