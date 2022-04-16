@@ -1,25 +1,23 @@
 {{ define "main" }}  
-<div class="container">  
-    <div class="section">  
-      {{ range .Pages }}  
-      <section class="mb-6 w-full flex flex-col items-start">
-          <!-- post header -->
-          <div class="mb-4">
-            <h1 class="font-semibold text-2xl"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>  
-            <div class="italic text-sm font-light">  
-              <p><time>{{ .PublishDate.Format "January 2, 2006" }}</time></p>  
-            </div>  
-          </div>
-          <article class="leading-loose">  
-          {{ if (isset .Params "extended") }}
-            {{ .Summary }}  
-            <a class="underline font-semibold" href="{{ .Permalink }}">Read more...</a>
-          {{ else }}
-            {{ .Content }}
-          {{ end }}
-          </article>  
-      </section>
-      {{ end }}  
-    </div>  
-</div>  
+  <div class="section">  
+    {{ range .Pages }}  
+    <section class="mb-6 w-full flex flex-col items-start">
+        <!-- post header -->
+        <div class="mb-4">
+          <h1 class="font-semibold text-2xl"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>  
+          <div class="italic text-sm font-light">  
+            <p><time>{{ .PublishDate.Format "January 2, 2006" }}</time></p>  
+          </div>  
+        </div>
+        <article class="leading-loose">  
+        {{ if (isset .Params "extended") }}
+          {{ .Summary }}  
+          <a class="underline font-semibold" href="{{ .Permalink }}">Read more...</a>
+        {{ else }}
+          {{ .Content }}
+        {{ end }}
+        </article>  
+    </section>
+    {{ end }}  
+  </div>  
 {{ end }} 
