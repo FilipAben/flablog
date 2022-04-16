@@ -2,7 +2,7 @@
 <div class="container">  
     <div class="section">  
       {{ range .Pages }}  
-      <div class="mb-6 w-full flex flex-col items-start">
+      <section class="mb-6 w-full flex flex-col items-start">
           <!-- post header -->
           <div class="mb-4">
             <h1 class="font-semibold text-2xl"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>  
@@ -18,8 +18,7 @@
             {{ .Content }}
           {{ end }}
           </article>  
-          <hr class="w-1/2 self-center m-2">
-      </div>
+      </section>
       {{ end }}  
     </div>  
 </div>  

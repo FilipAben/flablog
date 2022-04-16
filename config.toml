@@ -1,4 +1,4 @@
 baseURL = 'http://blog.aben.be'
 languageCode = 'en-us'
 title = 'Aben'
-theme = 'flabTheme'
+theme = ''

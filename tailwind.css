@@ -33,6 +33,12 @@
         @apply text-lg;
     }
 
+    section {
+        @apply bg-primary-background;
+        @apply p-4;
+        @apply rounded-md;
+    }
+
 }
 
 .menu-item {

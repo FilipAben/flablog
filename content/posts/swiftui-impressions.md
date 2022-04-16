@@ -4,7 +4,11 @@ date: 2022-04-10T23:42:36+02:00
 draft: true
 ---
 
-I've been trying to develop a app on and off for the couple of months. Nothing serious, just an hour here and there. It hasn't been exactly smooth sailing so far, mostly due to:
+I've been trying to develop a app on and off for the couple of months. Nothing that serious, just an hour here and there. The choice for a native platform wasn't any easy one. I'm fairly educated in React, Javascript & HTML, so React-native was the first thing that popped into my head. I knew that would allow me to hit the track running, but I wasn't sure it was the *right* choice. There were a couple of aspects which kept gnawing at me:
+* Performance implications: it will never be as fast as native. Anybody who tells you otherwise, is lying. React-native uses the same API's as a native app, but adds a javascript engine on top of it. There's a price to pay.
+* Dependency hell of the npm ecosystem
+
+But no matter how I It hasn't been exactly smooth sailing so far, mostly due to:
 * Actually using XCode for the first time.
 * Learning Swift
 * Learning SwiftUI and learning the ropes of iOS app development in general. 

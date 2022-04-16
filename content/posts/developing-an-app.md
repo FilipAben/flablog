@@ -18,7 +18,7 @@ My requirements weren't huge:
 * Future-proof
 * iOS only. Doesn't mean the platform must not support other platforms but iOS is the only platform I'm focusing on.
 
-Being fairly experienced in React, Javascript & HTML, React Native was the first thing that popped into my head. I knew it would allow me to hit the tracks running, but I wasn't sure it was the *right* choice, just the obvious one. When provided with the easiest choice and the best choice, I mostly choose the latter.
+I'm fairly experienced in React, Javascript & HTML. So React Native was the first thing that popped into my head. I knew it would allow me to hit the tracks running, but I wasn't sure it was the *right* choice, just the obvious one. When provided with the easiest choice and the best choice, I mostly choose the latter.
 
 So I dug in a bit further and indeed there were a couple of aspects which gnawed at me:
 * Performance implications: it will never be as fast as a native app. Anybody who tells you otherwise, is lying. React Native uses the same API's as a native app, but there's a whole javascript+react engine there as well. Compared to a compiled Swift binary, it's not possible to make it as fast.
