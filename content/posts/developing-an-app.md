@@ -25,7 +25,7 @@ So I dug in a bit further and indeed there were a couple of aspects which gnawed
 * Dependency hell: having worked at lot with the npm ecosystem, I have first-hand experience with the downsides of it. The million dependencies, vulnerabilities, package breaking,... wasn't looking forward to that.
 * Technology lag: any solution built on top of native technology will lag behind it.
 * Facebook is not as invested in React Native as it was before as some online [reports](https://onymos.com/whats-the-future-of-react-native-and-why-does-facebook-care/) seem to [indicate](https://medium.com/4devs/could-facebook-to-abandon-the-react-native-5a7e8ec481a8). Not that it necessarily needs it as it seems to be [thriving](https://www.ideamotive.co/blog/state-of-react-native-development) regardless. But having a major company driving it and being heavily invested in its success definitely helps. Otherwise it is the zillionth community-run project suffering from all the hubris that comes with it.
-* But the overall sentiment that I got out of articles & reddit, is that once the honeymoon period is over it will be a beast to maintain.
+* The overall sentiment that I got out of articles & reddit, is that once the honeymoon period is over it will be a beast to maintain.
 
 On the upside, React Native would give me:
 * A head-start during development: note though that I like to learn and I'm not pressed for time at all
