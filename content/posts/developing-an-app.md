@@ -12,7 +12,7 @@ The first choice anyone is faced with is: what technology stack am I going to us
 
 <!--more-->
 The choice for a native platform wasn't any easy one and even after the decision was made I lost some sleep over it.
-My requirements weren't extensive:
+My requirements weren't huge:
 
 * Easy to maintain
 * Future-proof
