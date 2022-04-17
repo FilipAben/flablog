@@ -6,7 +6,17 @@
     <description>Recent content on Aben</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Apr 2022 22:00:00 +0200</lastBuildDate><atom:link href="http://blog.aben.be/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Apr 2022 13:28:30 +0200</lastBuildDate><atom:link href="http://blog.aben.be/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decoder With Chris Dixon</title>
+      <link>http://blog.aben.be/posts/decoder-with-chris-dixon/</link>
+      <pubDate>Sun, 17 Apr 2022 13:28:30 +0200</pubDate>
+      
+      <guid>http://blog.aben.be/posts/decoder-with-chris-dixon/</guid>
+      <description>Interesting discussion on Decoder regarding web3. It&amp;rsquo;s good to see a civil, educated discussion about it. I don&amp;rsquo;t buy into much of the hype around it, but the goals &amp;amp; motivations behind it are not misguided for sure. Unfortunately the worst out-washes of blockchain technology are tainting it severely.
+I&amp;rsquo;m afraid it won&amp;rsquo;t play out as they intended it. Corporations will be corporations who will try to increase marketshare and monopolise any interesting technology.</description>
+    </item>
+    
     <item>
       <title>Developing an iOS app: tech choices</title>
       <link>http://blog.aben.be/posts/developing-an-app/</link>
