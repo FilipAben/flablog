@@ -28,7 +28,7 @@
         @apply ml-6;
     }
     article {
-        @apply font-[Vollkorn];
+        @apply font-[Catamaran];
         @apply leading-loose;
         @apply text-lg;
     }
