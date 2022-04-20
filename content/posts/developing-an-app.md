@@ -2,6 +2,10 @@
 title: "Developing an iOS app: tech choices"
 date: 2022-04-14T22:00:00+02:00
 extended: true
+tags:
+    - SwiftUI
+    - App Development
+    - iOS
 ---
 
 I'm going to develop an app. 

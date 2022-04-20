@@ -1,6 +1,10 @@
 ---
 title: "Decoder With Chris Dixon"
 date: 2022-04-17T13:28:30+02:00
+tags:
+    - crypto
+    - blockchain
+    - web3
 ---
 
 

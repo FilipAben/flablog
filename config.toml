@@ -1,3 +1,22 @@
 baseURL = 'http://blog.aben.be'
 languageCode = 'en-us'
-title = 'Aben'
+DefaultContentLanguage = "en"
+title = 'aben'
+
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+canonifyURLs = true
+
+[params]
+  author = "Filip Aben"
+  github = "https://github.com/FilipAben"
+  facebook = "https://facebook.com/praveenjuge"
+  sitename = "aben"
+  twitter = "@filipaben"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    weight = 1
