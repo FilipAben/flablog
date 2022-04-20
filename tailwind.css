@@ -35,7 +35,7 @@
 
     section {
         @apply bg-primary-background;
-        @apply p-4;
+        @apply p-8;
         @apply rounded-md;
     }
 
