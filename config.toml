@@ -1,4 +1,4 @@
-baseURL = 'http://blog.aben.be'
+baseURL = 'https://aben.be'
 languageCode = 'en-us'
 DefaultContentLanguage = "en"
 title = 'aben'
@@ -11,7 +11,6 @@ canonifyURLs = true
 [params]
   author = "Filip Aben"
   github = "https://github.com/FilipAben"
-  facebook = "https://facebook.com/praveenjuge"
   sitename = "aben"
   twitter = "@filipaben"
 
