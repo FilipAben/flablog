@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="{{.Site.LanguageCode}}">
-    {{- partial "head.html" . -}}
-    <body>
-        <div class="absolute top-0 right-0 left-0">
-            {{- partial "header.html" . -}}
-        </div>
-        <div class="flex flex-col-reverse lg:flex-row mt-[150px] mb-[100px] w-full">
-            <div id="left" class="basis-1/12 lg:basis-1/6 w-full"></div>
-            <div id="content" class="basis-5/6 mx-4 lg:basis-1/2 lg:mx-0">
-                {{- block "main" . }}{{- end }}
-            </div>
-            <div id="right" class="hidden lg:block basis-1/12 lg:basis-2/6 p-4">
-                {{- partial "google-ads-full.html" . -}}
-            </div>
-            <div id="top" class="block lg:hidden p-4">
-                {{- partial "google-ads-top.html" . -}}
-            </div>
+{{- partial "head.html" . -}}
 
-        </div> 
-        {{- partial "footer.html" . -}}
-    </body>
+<body>
+  <div class="absolute top-0 right-0 left-0">
+    {{- partial "header.html" . -}}
+  </div>
+  <div class="flex flex-col-reverse lg:flex-row mt-[150px] mb-[100px] w-full">
+    <div id="left" class="basis-1/12 lg:basis-1/6 w-full"></div>
+    <div id="content" class="basis-5/6 mx-4 lg:basis-1/2 lg:mx-0">
+      {{- block "main" . }}{{- end }}
+    </div>
+    <div id="right" class="hidden lg:block basis-1/12 lg:basis-2/6 p-4">
+    </div>
+  </div>
+  {{- partial "footer.html" . -}}
+</body>
+
 </html>
